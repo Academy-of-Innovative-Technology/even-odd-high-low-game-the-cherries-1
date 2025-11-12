@@ -8,7 +8,40 @@
 </head>
 <body>
   <main class="container">
-
+<h1>Even-or-Odd Guess (500-1000)</h1>
+<h3>Computer picks a secret number from 0 to 10000.<br> Enter guesses; you'll get higher/lower hints until correct.<br> Bonus hint: even/odd.</h3>
+<div class="guesses"></div>
+<div class="controls">
+  <input class="guess" type="number" placeholder="0-1000">
+  <button class="submit"> Submit </button>
+  <button class="retry"> Retry</button>
+  <button classs="giveUp">Give Up</button>
+  <button class="reset">Reset All</button>
+  </div>
+  <div class="hints">
+    <label>
+      <input class="hint" type="checkbox" checked>
+      Show even/odd hint
+    </label>
+  </div>
+  <div class="score">
+    <div class="scoreBox">
+      <p>Wins</p> <div class="wins"></div>
+    </div>
+    <div class="scoreBox">
+      <p>Losses</p> <div class="losses"></div>
+    </div> 
+    <div class="scoreBox">
+      <p>Rounds</p> <div class="rounds"></div>
+    </div>
+    <div class="scoreBox">
+      <p>Streak</p> <div class="streak"></div>
+    </div>
+    <div class="scoreBox">
+      <p>Retries</p> <div class="retries"></div>
+    </div>
+  </div>
+  
   </main>
 </body>
 </html>
